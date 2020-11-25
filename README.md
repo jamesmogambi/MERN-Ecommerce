@@ -1,8 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# MERN Ecommerce
+>React Node Ecommerce application with Paypal and Credit Card payments with Admin Order Management System.
+
+## Table of contents
+* [Description](#description)
+* [Live Demo](#live-demo)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Available Scripts](#available-scripts)
+* [Features](#features)
+* [Status](#status)
+* [Contact](#contact)
+
+## Description
+An ecommerce  built with MERN stack, and utilizes third party API's. This ecommerce store enable two main different flows or implementations:
+
+1. Buyers browse the store categories and products
+2. Admins manage and control the entire store components 
+
+
+## Live Demo
+Here is a working live demo :  
+
+## Screenshots
+
+### Landing Page
+![landing](https://user-images.githubusercontent.com/31744209/100269984-702c7c80-2f68-11eb-9de9-7330abce40e1.png)
+
+### Shopping Page
+![shop](https://user-images.githubusercontent.com/31744209/100269951-63a82400-2f68-11eb-8afb-62e7cc04f685.png)
+
+### Cart Page
+![shopping-cart](https://user-images.githubusercontent.com/31744209/100269957-660a7e00-2f68-11eb-8c10-48273dc3f336.png)
+
+### Signup Page
+![signup](https://user-images.githubusercontent.com/31744209/100269961-686cd800-2f68-11eb-831f-ff3116bb1d51.png)
+
+### Signin Page
+![signin](https://user-images.githubusercontent.com/31744209/100269959-673bab00-2f68-11eb-95d4-6736aac86569.png)
+
+### User-dashboard Page
+![user-dashboard](https://user-images.githubusercontent.com/31744209/100269966-6acf3200-2f68-11eb-80a2-1a77c41ecaa5.png)
+
+### Admin-dashboard Page
+![admin-dashboard](https://user-images.githubusercontent.com/31744209/100269980-6efb4f80-2f68-11eb-92db-977e991ca788.png)
+
+## Technologies
+* Technologies used:
+  * `React` 16.8 - for displaying UI components
+  * `Bootstrap` 4.3 -  CSS Framework for developing responsive and mobile-first websites
+  * `Node` 12.1 - provides the backend environment for this application
+  * `Moongoose` 5.5 - Mongoose schemas to model the application data
+  * `Express` 4.16 - middleware is used to handle requests, routes
+
+
+## Setup
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
+
+----------------------------------
+### Environment Variables
+Make sure to setup the url for the backend server.
+Hence:
+- Create .env file in project folder
+- Enter these line to that:
+
+```
+REACT_APP_API_URL= url for the backend server
+
+```
+
 
 ## Available Scripts
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 In the project directory, you can run:
+
+### `npm install`
+
+Installs all the dependencies.<br>
+All dependecies are listed in package.json file in the root directory.
+
 
 ### `npm start`
 
@@ -66,3 +144,50 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+## Features
+List of features:
+* Search products
+* Search products based on particular category
+* New arrivals
+* Best sellers
+* Product image
+* Product information
+* Product in stock/out of stock
+* View product
+* Related product
+* Add to cart
+* Remove product
+* Adjust quantity
+* Signin to checkout
+* User dashboard
+* Admin dashboard
+* Private routes
+* Admin routes
+* Shopping cart
+* Checkout with credit card and paypal
+* Checkout with delivery address
+* Success message
+* Update profile
+* Advance search of products
+* Advance search based on category and price range
+* Load more products
+* Admin dashboard
+* Create category
+* Create product
+* View orders
+* Manage products update/delete
+* Role based access
+
+
+To-do list:
+* Add local payment gateways
+* Add password reset 
+
+## Status
+Project is: _in progress_,some adjustments are in development.
+
+## Contact
+Created by [@jamesmogambi](https://github.com/jamesmogambi/) - feel free to contact me!
