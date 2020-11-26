@@ -125,7 +125,7 @@ $ npm start
   
   ```bash
     # Go to frontend folder
-    $ cd backend
+    $ cd frontend
   ```
  #### 2. Create .env file
 Make sure to setup the url for the backend server.
