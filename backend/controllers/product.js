@@ -24,9 +24,15 @@ exports.read = (req, res) => {
 };
 
 exports.create = (req, res) => {
+    console.log(req.body);
+
+    
     let form = new formidable.IncomingForm();
     form.keepExtensions = true;
     form.parse(req, (err, fields, files) => {
+    console.log('formidable',fields);
+    console.log('files',files);
+
         if (err) {
             return res.status(400).json({
                 error: 'Image could not be uploaded'
@@ -40,6 +46,7 @@ exports.create = (req, res) => {
                 error: 'All fields are required'
             });
         }
+
 
         let product = new Product(fields);
 
