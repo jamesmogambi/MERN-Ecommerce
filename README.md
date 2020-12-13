@@ -23,7 +23,7 @@ Here is a working live demo : [ecommerce-mern](https://ecommerce-mern-abc95.web.
 
 Use the below login so you can access admin areas:
 - Email: admin@gmail.com
-- Password: 12345
+- Password: 123456
 
 Use the below card to pay with Paypal or Credit Card:
 - 4111 1111 1111 1111 - 01/25 - 111
