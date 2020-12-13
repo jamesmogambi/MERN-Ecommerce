@@ -19,7 +19,7 @@ An ecommerce  built with MERN stack, and utilizes third party API's. This ecomme
 
 
 ## Live Demo
-Here is a working live demo :  
+Here is a working live demo : [ecommerce-mern](https://ecommerce-mern-abc95.web.app/) 
 
 Use the below login so you can access admin areas:
 - Email: admin@gmail.com
